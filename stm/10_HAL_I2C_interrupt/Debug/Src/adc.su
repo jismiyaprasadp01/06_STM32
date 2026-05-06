@@ -1,0 +1,5 @@
+D:/STM32 workspace/23_i2c_interrupt/Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+D:/STM32 workspace/23_i2c_interrupt/Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+../Src/adc.c:6:10:pa0_adc_read	8	static
+../Src/adc.c:11:6:adc_pa0_interrupt_init	56	static
+../Src/adc.c:53:6:ADC_IRQHandler	8	static

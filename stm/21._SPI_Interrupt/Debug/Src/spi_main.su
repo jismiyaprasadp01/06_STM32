@@ -1,0 +1,8 @@
+../Src/spi_main.c:20:6:delay	16	static
+../Src/spi_main.c:27:6:Button_Init	24	static
+../Src/spi_main.c:45:6:SPI2_GPIOInit	32	static
+../Src/spi_main.c:84:6:SPI2_Init	8	static
+../Src/spi_main.c:101:5:main	8	static
+../Src/spi_main.c:141:6:EXTI0_IRQHandler	8	static
+../Src/spi_main.c:150:6:SPI2_IRQHandler	8	static
+../Src/spi_main.c:157:6:SPI_ApplicationEventCallback	16	static
