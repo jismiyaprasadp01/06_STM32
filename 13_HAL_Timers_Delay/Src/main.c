@@ -20,7 +20,7 @@ int main(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim)
 {
 	// do something
-	printf("A second just elapsed!\n\r");
+	printf("HELLO\n\r");
 }
 
 void SysTick_Handler(void)
