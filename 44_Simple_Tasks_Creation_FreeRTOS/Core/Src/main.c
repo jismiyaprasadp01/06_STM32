@@ -74,7 +74,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+initialise_monitor_handles();
+extern void initialize_monitor_handles();
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -152,11 +153,20 @@ int main(void)
   */
 void vTask1_handler(void * params)
 {
-
+	while(1)
+	    {
+			printf("Task 1 executing..\n");
+	        HAL_GPIO_TogglePin(GPIOD, LD4_Pin);
+	        vTaskDelay(500);
+	    }
 }
 void vTask2_handler(void * params)
 {
-
+	while(1)
+	    {	printf("Task 2 executing..\n");
+	        HAL_GPIO_TogglePin(GPIOD, LD3_Pin);
+	        vTaskDelay(500);
+	    }
 }
 void SystemClock_Config(void)
 {

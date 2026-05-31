@@ -1,0 +1,12 @@
+../Core/Src/main.c:39:6:printmsg	2
+../Core/Src/main.c:47:5:main	2
+../Core/Src/main.c:81:6:vHandlerTask	1
+../Core/Src/main.c:94:6:vPeriodicTask	1
+../Core/Src/main.c:111:6:EXTI0_IRQHandler	1
+../Core/Src/main.c:116:6:HAL_GPIO_EXTI_Callback	3
+../Core/Src/main.c:132:6:rtos_delay	2
+../Core/Src/main.c:141:13:prvSetupUart	1
+../Core/Src/main.c:160:13:prvSetupHardware	1
+../Core/Src/main.c:168:13:prvSetupGPIO	1
+../Core/Src/main.c:196:6:SystemClock_Config	3
+../Core/Src/main.c:238:6:Error_Handler	1

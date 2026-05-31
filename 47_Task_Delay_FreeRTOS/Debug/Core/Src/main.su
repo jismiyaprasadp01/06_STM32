@@ -1,0 +1,10 @@
+../Core/Src/main.c:32:6:printmsg	24	static
+../Core/Src/main.c:41:5:main	16	static
+../Core/Src/main.c:67:6:vtask1_handler	16	static
+../Core/Src/main.c:78:6:vtask2_handler	16	static
+../Core/Src/main.c:87:6:rtos_delay	24	static
+../Core/Src/main.c:96:13:prvSetupUart	16	static
+../Core/Src/main.c:115:13:prvSetupHardware	8	static
+../Core/Src/main.c:123:13:prvSetupGPIO	40	static
+../Core/Src/main.c:147:6:SystemClock_Config	88	static
+../Core/Src/main.c:189:6:Error_Handler	4	static,ignoring_inline_asm

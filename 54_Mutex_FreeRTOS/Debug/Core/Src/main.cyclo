@@ -1,0 +1,8 @@
+../Core/Src/main.c:23:6:printmsg	2
+../Core/Src/main.c:34:5:main	2
+../Core/Src/main.c:69:6:vTask1	1
+../Core/Src/main.c:86:6:vTask2	1
+../Core/Src/main.c:103:13:prvSetupUart	1
+../Core/Src/main.c:122:13:prvSetupHardware	1
+../Core/Src/main.c:129:6:SystemClock_Config	3
+../Core/Src/main.c:171:6:Error_Handler	1

@@ -65,7 +65,7 @@ main-build: 44_Simple_Tasks_Creation_FreeRTOS.elf secondary-outputs
 
 # Tool invocations
 44_Simple_Tasks_Creation_FreeRTOS.elf 44_Simple_Tasks_Creation_FreeRTOS.map: $(OBJS) $(USER_OBJS) C:\STM32\44_Simple_Tasks_Creation_FreeRTOS\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "44_Simple_Tasks_Creation_FreeRTOS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\STM32\44_Simple_Tasks_Creation_FreeRTOS\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="44_Simple_Tasks_Creation_FreeRTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "44_Simple_Tasks_Creation_FreeRTOS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\STM32\44_Simple_Tasks_Creation_FreeRTOS\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="44_Simple_Tasks_Creation_FreeRTOS.map" -Wl,--gc-sections -static -specs=rdimon.specs -lc -lrdimon --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
